@@ -1,0 +1,598 @@
+> db.day2.insertMany([
+ {
+        "_id" : ObjectId("62f78ace77cf303393bd0946"),
+        "users" : [
+                "Pamela Bell",
+                "Christopher Hayden",
+                "Mr. Joseph Norman",
+                "Zachary Baker",
+                "William Wheeler",
+                "Mark Conner",
+                "Nicholas Estrada",
+                "Ray Contreras",
+                "Wayne Brown",
+                "Jessica Graves"
+        ],
+        "codekata" : [
+                24,
+                77,
+                95,
+                68,
+                55,
+                10,
+                50,
+                69,
+                96,
+                19
+        ],
+        "attendance" : {
+                "present" : 10,
+                "absent" : 2,
+                "date" : 5
+        },
+        "topics" : "JS Promise",
+        "tasks" : {
+                "submitted" : 8,
+                "did_not_submit" : 4,
+                "name" : "Write a promise function"
+        },
+        "company_drives" : {
+                "name" : "Amazon",
+                "date" : 6,
+                "appeared" : [
+                        "Pamela Bell",
+                        "Christopher Hayden",
+                        "Mr. Joseph Norman",
+                        "Zachary Baker",
+                        "William Wheeler",
+                        "Mark Conner",
+                        "Nicholas Estrada",
+                        "Ray Contreras",
+                        "Wayne Brown",
+                        "Jessica Graves"
+                ]
+        },
+        "mentors" : {
+                "mentor" : "Brian Mack",
+                "mentee" : 10
+        }
+},
+{
+        "_id" : ObjectId("62f78ace77cf303393bd0947"),
+        "users" : [
+                "Todd Ryan",
+                "Lance Ross",
+                "Cameron Bradley",
+                "Leslie Lee",
+                "Jacob Lynch",
+                "Mrs. Mandy Silva MD",
+                "Melissa Conway",
+                "Megan Moore",
+                "Michelle Jones",
+                "Jessica Graves",
+                "David Daniels",
+                "Monica Hill"
+        ],
+        "codekata" : [
+                60,
+                55,
+                27,
+                13,
+                57,
+                98,
+                37,
+                50,
+                6,
+                39
+        ],
+        "attendance" : {
+                "present" : 12,
+                "absent" : 0,
+                "date" : 5
+        },
+        "topics" : "JS axios",
+        "tasks" : {
+                "submitted" : 10,
+                "did_not_submit" : 2,
+                "name" : "Fetch using axios"
+        },
+        "company_drives" : {
+                "name" : "Carat Lane",
+                "date" : 7,
+                "appeared" : [
+                        "Todd Ryan",
+                        "Lance Ross",
+                        "Cameron Bradley",
+                        "Leslie Lee",
+                        "Jacob Lynch",
+                        "Mrs. Mandy Silva MD",
+                        "Melissa Conway",
+                        "Megan Moore",
+                        "Michelle Jones",
+                        "Jessica Graves",
+                        "David Daniels",
+                        "Monica Hill"
+                ]
+        },
+        "mentors" : {
+                "mentor" : "David Boyd",
+                "mentee" : 12
+        }
+},
+{
+        "_id" : ObjectId("62f78ace77cf303393bd0948"),
+        "users" : [
+                "Todd Ryan",
+                "Lance Ross",
+                "Cameron Bradley",
+                "Leslie Lee",
+                "Jacob Lynch",
+                "Mrs. Mandy Silva MD",
+                "Melissa Conway",
+                "Megan Moore",
+                "Michelle Jones",
+                "Jessica Graves",
+                "David Daniels",
+                "Monica Hill"
+        ],
+        "codekata" : [
+                60,
+                55,
+                27,
+                13,
+                57,
+                98,
+                37,
+                50,
+                6,
+                39
+        ],
+        "attendance" : {
+                "present" : 12,
+                "absent" : 0,
+                "date" : 5
+        },
+        "topics" : "JS DOM",
+        "tasks" : {
+                "submitted" : 10,
+                "did_not_submit" : 2,
+                "name" : "Write a blog about DOM"
+        },
+        "company_drives" : {
+                "name" : "Shopify",
+                "date" : 15,
+                "appeared" : [
+                        "Todd Ryan",
+                        "Lance Ross",
+                        "Cameron Bradley",
+                        "Leslie Lee",
+                        "Jacob Lynch",
+                        "Mrs. Mandy Silva MD",
+                        "Melissa Conway",
+                        "Megan Moore",
+                        "Michelle Jones",
+                        "Jessica Graves",
+                        "David Daniels",
+                        "Monica Hill"
+                ]
+        },
+        "mentors" : {
+                "mentor" : "Rebecca Nguyen",
+                "mentee" : 12
+        }
+},
+{
+        "_id" : ObjectId("62f78ace77cf303393bd0949"),
+        "users" : [
+                "Todd Ryan",
+                "Lance Ross",
+                "Cameron Bradley",
+                "Leslie Lee",
+                "Jacob Lynch",
+                "Mrs. Mandy Silva MD",
+                "Melissa Conway",
+                "Megan Moore",
+                "Michelle Jones",
+                "Jessica Graves",
+                "David Daniels",
+                "Monica Hill"
+        ],
+        "codekata" : [
+                60,
+                55,
+                27,
+                13,
+                57,
+                98,
+                37,
+                50,
+                6,
+                39
+        ],
+        "attendance" : {
+                "present" : 12,
+                "absent" : 0,
+                "date" : 15
+        },
+        "topics" : "JS async/await",
+        "tasks" : {
+                "submitted" : 10,
+                "did_not_submit" : 2,
+                "name" : "Write a async function"
+        },
+        "company_drives" : {
+                "name" : "Guvi",
+                "date" : 19,
+                "appeared" : [
+                        "Todd Ryan",
+                        "Lance Ross",
+                        "Cameron Bradley",
+                        "Leslie Lee",
+                        "Jacob Lynch",
+                        "Mrs. Mandy Silva MD",
+                        "Melissa Conway",
+                        "Megan Moore",
+                        "Michelle Jones",
+                        "Jessica Graves",
+                        "David Daniels",
+                        "Monica Hill"
+                ]
+        },
+        "mentors" : {
+                "mentor" : "Nicholas Clark",
+                "mentee" : 12
+        }
+},
+{
+        "_id" : ObjectId("62f78ace77cf303393bd094a"),
+        "users" : [
+                "Todd Ryan",
+                "Ryan",
+                "MD",
+                "Moore",
+                "Lance Ross",
+                "Cameron Bradley",
+                "Leslie Lee",
+                "Jacob Lynch",
+                "Mrs. Mandy Silva MD",
+                "Melissa Conway",
+                "Megan Moore",
+                "Michelle Jones",
+                "Jessica Graves",
+                "David Daniels",
+                "Monica Hill"
+        ],
+        "codekata" : [
+                60,
+                55,
+                27,
+                13,
+                57,
+                98,
+                37,
+                50,
+                6,
+                39
+        ],
+        "attendance" : {
+                "present" : 12,
+                "absent" : 0,
+                "date" : 20
+        },
+        "topics" : "JS event loop",
+        "tasks" : {
+                "submitted" : 10,
+                "did_not_submit" : 2,
+                "name" : "Write about event loop"
+        },
+        "company_drives" : {
+                "name" : "Node",
+                "date" : 24,
+                "appeared" : [
+                        "Todd Ryan",
+                        "Lance Ross",
+                        "Cameron Bradley",
+                        "Leslie Lee",
+                        "Jacob Lynch",
+                        "Mrs. Mandy Silva MD",
+                        "Melissa Conway",
+                        "Megan Moore",
+                        "Michelle Jones",
+                        "Jessica Graves",
+                        "David Daniels",
+                        "Monica Hill"
+                ]
+        },
+        "mentors" : {
+                "mentor" : "Jeffrey Long",
+                "mentee" : 15
+        }
+}
+]
+)
+
+
+
+1. Find all the topics and tasks which are thought in the month of October
+
+> db.day2.find({},{_id:0,topics:1,tasks:{name:1}}).pretty()
+{
+        "topics" : "JS Promise",
+        "tasks" : {
+                "name" : "Write a promise function"
+        }
+}
+{ 
+        "topics" : "JS axios", 
+        "tasks" : { "name" : "Fetch using axios" } }
+{   
+        "topics" : "JS DOM", 
+        "tasks" : { "name" : "Write a blog about DOM" } }
+{
+        "topics" : "JS async/await",
+        "tasks" : {
+                "name" : "Write a async function"
+        }
+}
+{
+        "topics" : "JS event loop",
+        "tasks" : {
+                "name" : "Write about event loop"
+        }
+}
+
+2. Find all the company drives which appeared between 15 oct-2020 and 31-oct-2020
+
+> db.day2.find({"company_drives.date":{$gte : 15, $lte:31}},{_id: 0,
+    company_drives: {
+    name: 1,
+    date: 1   }
+})
+
+
+{ "company_drives" : { "name" : "Shopify", "date" : 15 } }
+{ "company_drives" : { "name" : "Guvi", "date" : 19 } }
+{ "company_drives" : { "name" : "Node", "date" : 24 } }
+
+3. Find all the company drives and students who are appeared for the placement.
+> db.day2.find({},{_id:0,company_drives:{appeared:1,name:1}}).pretty();      
+{
+        "company_drives" : {
+                "name" : "Amazon",
+                "appeared" : [
+                        "Pamela Bell",
+                        "Christopher Hayden",
+                        "Mr. Joseph Norman",
+                        "Zachary Baker",
+                        "William Wheeler",
+                        "Mark Conner",
+                        "Nicholas Estrada",
+                        "Ray Contreras",
+                        "Wayne Brown",
+                        "Jessica Graves"
+                ]
+        }
+}
+{
+        "company_drives" : {
+                "name" : "Carat Lane",
+                "appeared" : [
+                        "Todd Ryan",
+                        "Lance Ross",
+                        "Cameron Bradley",
+                        "Leslie Lee",
+                        "Jacob Lynch",
+                        "Mrs. Mandy Silva MD",
+                        "Melissa Conway",
+                        "Megan Moore",
+                        "Michelle Jones",
+                        "Jessica Graves",
+                        "David Daniels",
+                        "Monica Hill"
+                ]
+        }
+}
+{
+        "company_drives" : {
+                "name" : "Shopify",
+                "appeared" : [
+                        "Todd Ryan",
+                        "Lance Ross",
+                        "Cameron Bradley",
+                        "Leslie Lee",
+                        "Jacob Lynch",
+                        "Mrs. Mandy Silva MD",
+                        "Melissa Conway",
+                        "Megan Moore",
+                        "Michelle Jones",
+                        "Jessica Graves",
+                        "David Daniels",
+                        "Monica Hill"
+                ]
+        }
+}
+{
+        "company_drives" : {
+                "name" : "Guvi",
+                "appeared" : [
+                        "Todd Ryan",
+                        "Lance Ross",
+                        "Cameron Bradley",
+                        "Leslie Lee",
+                        "Jacob Lynch",
+                        "Mrs. Mandy Silva MD",
+                        "Melissa Conway",
+                        "Megan Moore",
+                        "Michelle Jones",
+                        "Jessica Graves",
+                        "David Daniels",
+                        "Monica Hill"
+                ]
+        }
+}
+{
+        "company_drives" : {
+                "name" : "Node",
+                "appeared" : [
+                        "Todd Ryan",
+                        "Lance Ross",
+                        "Cameron Bradley",
+                        "Leslie Lee",
+                        "Jacob Lynch",
+                        "Mrs. Mandy Silva MD",
+                        "Melissa Conway",
+                        "Megan Moore",
+                        "Michelle Jones",
+                        "Jessica Graves",
+                        "David Daniels",
+                        "Monica Hill"
+                ]
+        }
+}
+
+
+4. Find the number of problems solved by the user in codekata
+> db.day2.find({},{_id:0,users:1,codekata:1}).pretty();        
+{
+        "users" : [
+                "Pamela Bell",
+                "Christopher Hayden",
+                "Mr. Joseph Norman",
+                "Zachary Baker",
+                "William Wheeler",
+                "Mark Conner",
+                "Nicholas Estrada",
+                "Ray Contreras",
+                "Wayne Brown",
+                "Jessica Graves"
+        ],
+        "codekata" : [
+                24,
+                77,
+                95,
+                68,
+                55,
+                10,
+                50,
+                69,
+                96,
+                19
+        ]
+}
+{
+        "users" : [
+                "Todd Ryan",
+                "Lance Ross",
+                "Cameron Bradley",
+                "Leslie Lee",
+                "Jacob Lynch",
+                "Mrs. Mandy Silva MD",
+                "Melissa Conway",
+                "Megan Moore",
+                "Michelle Jones",
+                "Jessica Graves",
+                "David Daniels",
+                "Monica Hill"
+        ],
+        "codekata" : [
+                60,
+                55,
+                27,
+                13,
+                57,
+                98,
+                37,
+                50,
+                6,
+                39
+        ]
+}
+{
+        "users" : [
+                "Todd Ryan",
+                "Lance Ross",
+                "Cameron Bradley",
+                "Leslie Lee",
+                "Jacob Lynch",
+                "Mrs. Mandy Silva MD",
+                "Melissa Conway",
+                "Megan Moore",
+                "Michelle Jones",
+                "Jessica Graves",
+                "David Daniels",
+                "Monica Hill"
+        ],
+        "codekata" : [
+                60,
+                55,
+                27,
+                13,
+                57,
+                98,
+                37,
+                50,
+                6,
+                39
+        ]
+}
+{
+        "users" : [
+                "Todd Ryan",
+                "Lance Ross",
+                "Cameron Bradley",
+                "Leslie Lee",
+                "Jacob Lynch",
+                "Mrs. Mandy Silva MD",
+                "Melissa Conway",
+                "Megan Moore",
+                "Michelle Jones",
+                "Jessica Graves",
+                "David Daniels",
+                "Monica Hill"
+        ],
+        "codekata" : [
+                60,
+                55,
+                27,
+                13,
+                57,
+                98,
+                37,
+                50,
+                6,
+                39
+        ]
+}
+{
+        "users" : [
+                "Todd Ryan",
+                "Lance Ross",
+                "Cameron Bradley",
+                "Leslie Lee",
+                "Jacob Lynch",
+                "Mrs. Mandy Silva MD",
+                "Melissa Conway",
+                "Megan Moore",
+                "Michelle Jones",
+                "Jessica Graves",
+                "David Daniels",
+                "Monica Hill"
+        ],
+        "codekata" : [
+                60,
+                55,
+                27,
+                13,
+                57,
+                98,
+                37,
+                50,
+                6,
+                39
+        ]
+}
+
+5. Find all the mentors with who has the mentee's count more than 15
+> db.day2.find({"attendance.date":{$gte:15, $lte:31}},{_id:0,attendance:{absent:1,date:1},tasks:{did_not_submit:1}});
+{ "attendance" : { "absent" : 0, "date" : 15 }, "tasks" : { "did_not_submit" : 2 } }
+{ "attendance" : { "absent" : 0, "date" : 20 }, "tasks" : { "did_not_submit" : 2 } }
